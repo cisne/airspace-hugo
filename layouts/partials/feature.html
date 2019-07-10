@@ -4,7 +4,7 @@
     <div class="col-md-6 col-md-offset-6">
       <h2 class="text-uppercase">{{ .Site.Params.feature.title }}</h2>
       <p>
-      	{{ .Site.Params.feature.content | markdownify }}
+      	<font size="+2"><b>{{ .Site.Params.feature.content | markdownify }}</b></font>
       </p>
       {{ with .Site.Params.feature.button }}
       	<a href="{{ .url }}" class="btn btn-main">{{ .caption }}</a>
