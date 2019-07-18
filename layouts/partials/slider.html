@@ -8,7 +8,7 @@
                     <h1 class="animated fadeInUp text-uppercase">{{ .Site.Params.slider.title | safeHTML }}</h1>
                     <p class="animated fadeInUp">{{ .Site.Params.slider.subtitle | safeHTML }}</p>
                     <a class="btn btn-main btn-solid-border" href="{{ .Site.Params.slider.url1 | absURL }}" >{{ .Site.Params.slider.btnText1 }}</a>
-					<a class="btn btn-main btn-solid-border" href="{{ .Site.Params.slider.url2 }}" >{{ .Site.Params.slider.btnText2 }}</a>
+					<a class="btn btn-main btn-solid-border" href="{{ .Site.Params.slider.url2 | absURL }}" >{{ .Site.Params.slider.btnText2 }}</a>
                 </div>
             </div>
         </div>
